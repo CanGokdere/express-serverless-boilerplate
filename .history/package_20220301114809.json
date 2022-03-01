@@ -1,0 +1,45 @@
+{
+  "name": "hobby-diy-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sequelize": "dotenv sequelize"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.5.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^7.0.0-alpha.4",
+    "typedi": "^0.10.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.6",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "sequelize-cli": "^6.3.0",
+    "supertest": "^6.1.6",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.4"
+  }
+}
